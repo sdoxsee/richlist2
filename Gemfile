@@ -7,6 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'sqlite3'
 gem 'simple_form'
+# gem 'cloudinary'
 
 
 # Gems used only for assets and not required
@@ -14,6 +15,7 @@ gem 'simple_form'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem "css-social-buttons-rails", "~> 0.0.2"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

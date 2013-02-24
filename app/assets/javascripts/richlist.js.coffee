@@ -8,4 +8,5 @@ $ ->
   # set effect from select menu value
   $("#button").click ->
     runEffect()
+    $(".redman-start").toggleClass "redman-finish"
     false

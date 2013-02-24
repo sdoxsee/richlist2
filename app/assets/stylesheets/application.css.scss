@@ -7,7 +7,25 @@
 	-moz-transition: width 2s;
 	-webkit-transition: width 2s;
 	-o-transition: width 2s;
+	ms-transition: width 2s;
 	&:hover {
 		width: 300px;
 	}
+}
+
+.redman-start {
+	position:relative;
+	top: 73px;
+	left: 21px;
+	transition: left 2s;
+	-moz-transition: left 2s;
+	-webkit-transition: left 2s;
+	-o-transition: left 2s;
+	-ms-transition: left 2s;
+}
+
+.redman-finish {
+	position:relative;
+	top: 73px;
+	left: 714px;
 }
